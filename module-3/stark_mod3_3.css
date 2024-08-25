@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+/* div {
+    display: inline-block;
+} */
+
+ul, ol {
+    font-weight: 300;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#orderedList, #unorderedList {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#orderedList {
+    border: 1px solid red;
+    border-radius: 15px;
+    justify-self: left;
+}
+
+#unorderedList {
+    border: 1px dashed red;
+    border-radius: 15px;
+    float: right;
+}
+
+#unorderedList > ul {
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+#returnHomePage {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    text-align: right;
+}
