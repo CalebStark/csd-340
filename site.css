@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3, h4 {
+    background-color: #DBFCFF;
+    color: #3382DD;
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+a {
+    color: #3382DD;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #33C5DD;
+}
+
+a:visited{
+    color: #DD3382;
+}
