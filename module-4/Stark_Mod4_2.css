@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+h1, h3, figcaption {
+    color: rgb(202, 100, 24);
+}
+
+#image-gallery {
+    display: inline-grid;
+    margin-top: 10%;
+}
+
+#image-gallery > div {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid rgb(202, 100, 24);
+}
+
+#returnHomePage {
+    width: 100%;
+    margin-top:5%;
+    margin-bottom: 20px;
+    text-align: right;
+}
