@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            CSD 340 Development with HTML and CSS
+        </title>
+        <meta name="description" content="Assignment for HTML class module 2 Assignment 2">
+        <meta name="keywords" content="Assignment, html, css, class">
+        <meta name="author" content="Caleb Stark">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../module-2/stark_mod2_2.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>
+                Assignment 9.3: JavaScript - Part 1
+            </h1>
+            <h2>Early Life</h2>
+            <p class="intro">
+                As a child I grew up being homeschooled by my mother. I was not alone though I have two
+                sisters and one brother who was also homeschooled with me. My mom did all my schooling 
+                up until I was fifteen when I then began to start doing <span id="school">______</span> online thru a homeschool coop.
+            </p>
+            <p>
+                Once I began online school things changed classes became easier as all I had to do was complete
+                the assignment read the chapter and in most cases that came easily to me. When my mother was the 
+                one leading the assignment I found that often I would not understand what she was trying to teach
+                cause she was attempting to use her own <span id="personal">________</span> thoughts to teach instead of following a curriculum
+                to the letter. With the online classes I found myself often completing assignments early allowing 
+                me to do other things that intrusted me more such as playing video games and learning about computers.
+            </p>
+            <p>
+                My parents were not fans with how much gaming I would do at times but they put up with it and let 
+                me game as long my other work got done and my <span id="grades">______</span> remained high. This being my motivation not only 
+                did I maintain a high grade I made sure that I got as much school done as soon as I could at all times 
+                I would work ahead and get assignments done early and even have semesters of homework just waiting to 
+                be submitted so I could ensure once I started gaming I could continue gaming. Well not only did this 
+                strategies work but I was even able to maintain a 4.0 GPA the entire time.
+            </p>
+            <p>
+                After highschool I went to a community college as it was one of the places I could go and with how broke 
+                my parents were would not cost very much allowing me a college education without all the dept. This could
+                have been avoided of course if only I had spend less time gaming and more time doing extracurricular and 
+                doing more advance classes setting <span id="myself">______</span> up for different scholarships. I did end up getting some scholarships 
+                but not enough to go to a full college. <span class="sentence">At this community college I studied cyber security and digital crime and 
+                got an associates but decided to take time away from school as my second year at school was a rough year 
+                leading me to want to step back and consider what I really want to do.</span>
+            </p>
+            <p>
+                <button type=button onclick="document.getElementById('school').innerHTML = wordOne">School</button>
+                <button type="button" onclick="document.getElementById('personal').innerHTML = wordTwo">Personal</button>
+                <button type="button" onclick="document.getElementById('grades').innerHTML = wordThree">Grades</button>
+                <button type="button" onclick="document.getElementById('myself').innerHTML = wordFour">Myself</button>
+
+                <script>
+                    var wordOne = "school";
+                    var wordTwo = "personal";
+                    var wordThree = "grades";
+                    var wordFour = "myself";
+                </script>
+            </p>
+            <hr>
+                <address>
+                    <p><a href="https://degrees.bellevue.edu">Bellevue University</a></p>
+                    <p>1000 Galvin Road South </p>
+                    <p>Bellevue, NE 68005</p>
+                </address>
+        </div>
+    </body>
+</html>
